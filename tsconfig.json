@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["chrome-types"],
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    "allowJs": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "strict": true,
+    "useDefineForClassFields": true,
+  },
+  "include": ["src", "vite.config.ts", "manifest.config.ts","**/*.ts"]
+}
